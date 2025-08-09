@@ -17,6 +17,18 @@ const HeroSection = () => {
       <div className="relative container mx-auto px-4 py-20 flex items-center min-h-screen">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
+            <div className="mb-8 flex justify-center">
+              <div className="relative">
+                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-primary p-1">
+                  <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-muted-foreground">
+                    <span className="text-sm">[Upload Your Photo]</span>
+                  </div>
+                </div>
+                <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                  <span className="text-primary-foreground text-lg">✓</span>
+                </div>
+              </div>
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
               [Your Name]
             </h1>
