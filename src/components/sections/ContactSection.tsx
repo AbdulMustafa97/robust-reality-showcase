@@ -7,19 +7,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "qa.engineer@email.com",
-      href: "mailto:qa.engineer@email.com"
+      value: "[your.email@domain.com]",
+      href: "mailto:[your.email@domain.com]"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "[Your Phone Number]",
+      href: "tel:[Your Phone Number]"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "[Your City, State/Country]",
       href: "#"
     }
   ];
@@ -28,14 +28,14 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/qa-engineer",
-      href: "https://github.com"
+      value: "[github.com/yourusername]",
+      href: "[Your GitHub URL]"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/qa-engineer",
-      href: "https://linkedin.com"
+      value: "[linkedin.com/in/yourprofile]",
+      href: "[Your LinkedIn URL]"
     }
   ];
 

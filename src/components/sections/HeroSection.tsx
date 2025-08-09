@@ -18,13 +18,16 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              Senior QA Engineer
+              [Your Name]
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-primary">
+              Senior QA Engineer
+            </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              Passionate about delivering exceptional software quality through innovative testing strategies, automation, and continuous improvement.
+              [Your professional tagline - e.g., "Passionate about delivering exceptional software quality through innovative testing strategies"]
             </p>
             <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto">
-              With years of experience in quality assurance, I specialize in building robust testing frameworks, implementing CI/CD pipelines, and ensuring seamless user experiences across diverse platforms.
+              [Brief description of your experience and specializations - e.g., "With X years of experience in quality assurance, I specialize in..."]
             </p>
           </div>
           
@@ -39,13 +42,13 @@ const HeroSection = () => {
           </div>
           
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
+            <a href="[Your GitHub URL]" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
+            <a href="[Your LinkedIn URL]" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
+            <a href="mailto:[Your Email]" className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent">
               <Mail className="h-6 w-6" />
             </a>
           </div>
