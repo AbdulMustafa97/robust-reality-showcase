@@ -6,9 +6,23 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Senior QA Engineer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2021 - Present",
+      company: "Next Generation Innovations (NextGENi)",
+      location: "Karachi, Pakistan",
+      period: "March 2025 - Present",
+      description: "Lead quality assurance initiatives for enterprise-level applications, managing a team of 5 QA engineers and implementing comprehensive testing strategies.",
+      achievements: [
+        "Reduced production bugs by 75% through enhanced testing protocols",
+        "Implemented automated testing suite covering 90% of critical user journeys",
+        "Established CI/CD pipeline reducing deployment time by 60%",
+        "Mentored junior QA engineers and conducted training sessions"
+      ],
+      technologies: ["Selenium", "Jenkins", "Docker", "AWS", "Python", "REST API"]
+    },
+{
+      title: "Software QA Engineer",
+      company: "Next Generation Innovations (NextGENi)",
+      location: "Karachi, Pakistan",
+      period: "May 2023 - Feb. 2025",
       description: "Lead quality assurance initiatives for enterprise-level applications, managing a team of 5 QA engineers and implementing comprehensive testing strategies.",
       achievements: [
         "Reduced production bugs by 75% through enhanced testing protocols",
@@ -19,10 +33,10 @@ const ExperienceSection = () => {
       technologies: ["Selenium", "Jenkins", "Docker", "AWS", "Python", "REST API"]
     },
     {
-      title: "QA Engineer",
-      company: "Digital Innovations Inc",
-      location: "Austin, TX",
-      period: "2019 - 2021",
+      title: "Software QA Engineer",
+      company: "Hudasoft Inc.",
+      location: "Karachi, Pakistan",
+      period: "May 2022 -- April 2023",
       description: "Developed and executed comprehensive test plans for web and mobile applications, focusing on functional, integration, and performance testing.",
       achievements: [
         "Created automated test framework using Cypress and JavaScript",
@@ -33,10 +47,10 @@ const ExperienceSection = () => {
       technologies: ["Cypress", "JavaScript", "JIRA", "TestRail", "Postman", "MySQL"]
     },
     {
-      title: "Junior QA Analyst",
-      company: "StartupTech",
-      location: "Remote",
-      period: "2017 - 2019",
+      title: "Research Assistant",
+      company: "DHA Suffa University",
+      location: "Karachi, Pakistan",
+      period: "Feb. 2021 - Feb. 2022",
       description: "Performed manual testing for SaaS applications, created detailed test cases, and collaborated with development teams to ensure quality deliverables.",
       achievements: [
         "Designed comprehensive test cases for new feature releases",

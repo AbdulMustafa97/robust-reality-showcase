@@ -7,19 +7,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "[your.email@domain.com]",
-      href: "mailto:[your.email@domain.com]"
+      value: "abdul.mustafa.amd@gmail.com",
+      href: "mailto:abdul.mustafa.amd@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "[Your Phone Number]",
-      href: "tel:[Your Phone Number]"
+      value: "+923133175222",
+      href: "tel:+923133175222"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "[Your City, State/Country]",
+      value: "Karachi, Pakistan / Remote",
       href: "#"
     }
   ];
@@ -28,14 +28,14 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "[github.com/yourusername]",
-      href: "[Your GitHub URL]"
+      value: "[github.com/AbdulMustafa97]",
+      href: "https://github.com/AbdulMustafa97"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "[linkedin.com/in/yourprofile]",
-      href: "[Your LinkedIn URL]"
+      value: "[linkedin.com/in/abdul-mustafa-qa]",
+      href: "https://www.linkedin.com/in/abdul-mustafa-qa/"
     }
   ];
 
@@ -130,9 +130,15 @@ const ContactSection = () => {
                   <Mail className="mr-2 h-5 w-5" />
                   Send Message
                 </Button>
-                <Button variant="professional" size="lg">
-                  Schedule Call
-                </Button>
+                <a
+                  href="https://calendly.com/abdul-mustafa-amd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="professional" size="lg">
+                    Schedule Call
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
